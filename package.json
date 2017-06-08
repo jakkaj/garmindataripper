@@ -1,0 +1,24 @@
+{
+  "name": "garmindataripper",
+  "version": "1.0.0",
+  "description": "Pull your data from the Garmin Site as a JSON file",
+  "main": "index2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakkaj/garmindataripper.git"
+  },
+  "author": "jakkaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakkaj/garmindataripper/issues"
+  },
+  "homepage": "https://github.com/jakkaj/garmindataripper#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "phantom": "^4.0.4",
+    "request-cookies": "^1.1.0"
+  }
+}
