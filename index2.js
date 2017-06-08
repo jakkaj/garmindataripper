@@ -9,7 +9,7 @@ var pass = process.env.PASS;
 
 
     (async function(){
-        var instance = await phantom.create(['--proxy=localhost:8888']);
+        var instance = await phantom.create();
 
         console.log("Start")
 
@@ -54,6 +54,7 @@ var pass = process.env.PASS;
                     console.log(status);
                     const content2 = await page2.property('content');    
                     fs.writeFileSync("C:\\Users\\jak\\demo\\nigel\\data1.json",content2);
+                    console.log(">>> output " + content2);
                 }, 10000);
 
         }, 1000);

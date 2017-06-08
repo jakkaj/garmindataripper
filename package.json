@@ -2,7 +2,7 @@
   "name": "garmindataripper",
   "version": "1.0.0",
   "description": "Pull your data from the Garmin Site as a JSON file",
-  "main": "index2.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
